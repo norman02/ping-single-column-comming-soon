@@ -153,4 +153,11 @@ body {
   -webkit-box-shadow: 0 5px 10px #C2D3FF;
           box-shadow: 0 5px 10px #C2D3FF;
 }
+
+.slack {
+  margin: auto;
+  background: center/contain no-repeat url("../img/slack.jpg");
+  width: 32rem;
+  height: 19rem;
+}
 /*# sourceMappingURL=main.css.map */

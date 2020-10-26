@@ -160,4 +160,20 @@ body {
   width: 32rem;
   height: 19rem;
 }
+
+.widgets {
+  margin-top: 12rem;
+}
+
+.widgets .widget {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+  color: #969696;
+  font-weight: 300;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: $primary-font;
     font-weight: 400;
     text-align: center;
     color: $very-dark-blue;
@@ -41,11 +41,15 @@ body {
 
     input {
         border: 1px solid $light-blue;
-        color: $light-blue; 
+        color: $light-blue;    
+    }
 
-        input::placeholder {
-            color: $light-blue;
-        }
+    input::placeholder {
+        color: $light-blue;
+        font-family: $primary-font;
+        font-weight: 300;
+        font-size: 1.2rem;
+        padding-left: 3rem;
     }
     
     .form-elem {
@@ -54,6 +58,12 @@ body {
         border-radius: 5rem;
     }
 
-    
+    button {
+        margin-top: 1.2rem;
+        background-color: $blue;
+        color: #fff;
+        font-weight: 700;
+        box-shadow: 0 5px 10px $light-blue;
+    }
     
 }

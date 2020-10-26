@@ -55,7 +55,7 @@ table {
 }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   text-align: center;
   color: #15202A;
@@ -107,25 +107,50 @@ body {
   color: #C2D3FF;
 }
 
-.subscription-form input input::-webkit-input-placeholder {
+.subscription-form input::-webkit-input-placeholder {
   color: #C2D3FF;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 3rem;
 }
 
-.subscription-form input input:-ms-input-placeholder {
+.subscription-form input:-ms-input-placeholder {
   color: #C2D3FF;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 3rem;
 }
 
-.subscription-form input input::-ms-input-placeholder {
+.subscription-form input::-ms-input-placeholder {
   color: #C2D3FF;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 3rem;
 }
 
-.subscription-form input input::placeholder {
+.subscription-form input::placeholder {
   color: #C2D3FF;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 3rem;
 }
 
 .subscription-form .form-elem {
   width: 28rem;
   height: 4rem;
   border-radius: 5rem;
+}
+
+.subscription-form button {
+  margin-top: 1.2rem;
+  background-color: #4C7BF3;
+  color: #fff;
+  font-weight: 700;
+  -webkit-box-shadow: 0 5px 10px #C2D3FF;
+          box-shadow: 0 5px 10px #C2D3FF;
 }
 /*# sourceMappingURL=main.css.map */

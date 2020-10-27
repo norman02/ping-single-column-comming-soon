@@ -59,13 +59,13 @@ body {
   font-weight: 400;
   text-align: center;
   color: #15202A;
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: 300;
 }
 
 .title {
-  margin-top: 8.5rem;
-  font-size: 2rem;
+  margin-top: 85px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -75,9 +75,9 @@ body {
 }
 
 .sub-title {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  font-size: 2.2rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 22px;
   font-weight: 300;
   color: #969696;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .subscription-form {
-  margin: 3.6rem 4.8rem 7rem 4.8rem;
+  margin: 36px 70px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,43 +110,43 @@ body {
   color: #C2D3FF;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
-  padding-left: 3rem;
+  font-size: 12px;
+  padding-left: 30px;
 }
 
 .subscription-form input:-ms-input-placeholder {
   color: #C2D3FF;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
-  padding-left: 3rem;
+  font-size: 12px;
+  padding-left: 30px;
 }
 
 .subscription-form input::-ms-input-placeholder {
   color: #C2D3FF;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
-  padding-left: 3rem;
+  font-size: 12px;
+  padding-left: 30px;
 }
 
 .subscription-form input::placeholder {
   color: #C2D3FF;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
-  padding-left: 3rem;
+  font-size: 12px;
+  padding-left: 30px;
 }
 
 .subscription-form .form-elem {
   outline: none;
-  width: 28rem;
-  height: 4rem;
+  width: 280px;
+  height: 40px;
   border-radius: 5rem;
 }
 
 .subscription-form button {
-  margin-top: 1.2rem;
+  margin-top: 12px;
   background-color: #4C7BF3;
   color: #fff;
   font-weight: 700;
@@ -156,8 +156,8 @@ body {
 
 .subscription-form button:hover {
   cursor: pointer;
-  width: 29rem;
-  height: 5rem;
+  width: 285px;
+  height: 45px;
 }
 
 .subscription-form .error-msg {
@@ -189,24 +189,24 @@ body {
 .slack {
   margin: auto;
   background: center/contain no-repeat url("../img/slack.jpg");
-  width: 32rem;
-  height: 19rem;
+  width: 320px;
+  height: 190px;
 }
 
 .widgets {
-  margin-top: 12rem;
+  margin-top: 120px;
 }
 
 .widgets .widget {
-  width: 3rem;
-  height: 3rem;
-  margin-right: 1.2rem;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
 }
 
 footer {
-  margin: 3.2rem 0;
+  margin-bottom: 32px;
   color: #969696;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 10px;
 }
 /*# sourceMappingURL=main.css.map */

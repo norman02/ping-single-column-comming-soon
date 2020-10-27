@@ -88,7 +88,7 @@ body {
 }
 
 .subscription-form {
-  margin: 36px 70px 0;
+  margin: 36px 0 70px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,9 +204,48 @@ body {
 }
 
 footer {
+  margin-top: 70px;
   margin-bottom: 32px;
   color: #969696;
   font-weight: 300;
   font-size: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .sub-title {
+    font-size: 48px;
+  }
+  .subscription-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .subscription-form #email {
+    margin: 0 10px 0 0;
+    width: 420px;
+    height: 56px;
+  }
+  .subscription-form #submit {
+    margin: 0;
+    height: 56px;
+    width: 200px;
+  }
+  .slack {
+    width: 567px;
+    height: 358px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

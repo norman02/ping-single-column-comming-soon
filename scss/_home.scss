@@ -33,7 +33,7 @@ body {
 }
 
 .subscription-form {
-    margin: 36px 70px 0;
+    margin: 36px 0 70px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,8 +107,50 @@ body {
 }
 
 footer {
+    margin-top: 70px;
     margin-bottom: 32px;
     color: $light-gray;
     font-weight: 300;
     font-size: 10px;
+}
+
+@include media-lg {
+
+    body {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .sub-title {
+        font-size: 48px;
+    }
+
+    .subscription-form {
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+
+        #email {
+            margin: 0 10px 0 0;
+            width: 420px;
+            height: 56px;
+        }
+    
+        #submit {
+            margin: 0;
+            height: 56px;
+            width: 200px;
+        }
+    }
+
+    .slack {
+        width: 567px;
+        height: 358px;
+    }
+
+    
+    
 }

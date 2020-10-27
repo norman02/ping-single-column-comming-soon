@@ -1,7 +1,4 @@
 
-
-
-
 body {
     font-family: $primary-font;
     font-weight: 400;
@@ -11,13 +8,10 @@ body {
     font-weight: 300;
 }
 
-
-
 .title {
     margin-top: 8.5rem;
     font-size: 2rem;
     font-weight: 700;
-    color: $very-dark-blue;
     text-transform: uppercase;
 
     span {
@@ -84,15 +78,17 @@ body {
 .widgets {
 
     margin-top: 12rem;
+    
 
     .widget {
         width: 3rem;
         height: 3rem;
+        margin-right: 1.2rem;
     }
 }
 
 footer {
-    margin-top: 3rem;
+    margin: 3.2rem 0;
     color: $light-gray;
     font-weight: 300;
     font-size: 1rem;

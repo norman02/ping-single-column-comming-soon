@@ -67,7 +67,6 @@ body {
   margin-top: 8.5rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #15202A;
   text-transform: uppercase;
 }
 
@@ -154,10 +153,58 @@ body {
           box-shadow: 0 5px 10px #C2D3FF;
 }
 
+.subscription-form button:hover {
+  cursor: pointer;
+  width: 29rem;
+  height: 5rem;
+}
+
+.subscription-form .error {
+  border-color: red;
+}
+
+.subscription-form .error::-webkit-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error:-ms-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error::-ms-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error::placeholder {
+  color: black;
+}
+
+.subscription-form .error-msg {
+  display: none;
+  color: red;
+}
+
 .slack {
   margin: auto;
   background: center/contain no-repeat url("../img/slack.jpg");
   width: 32rem;
   height: 19rem;
+}
+
+.widgets {
+  margin-top: 12rem;
+}
+
+.widgets .widget {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.2rem;
+}
+
+footer {
+  margin: 3.2rem 0;
+  color: #969696;
+  font-weight: 300;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

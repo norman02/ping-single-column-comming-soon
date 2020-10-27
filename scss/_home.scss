@@ -1,7 +1,4 @@
 
-
-
-
 body {
     font-family: $primary-font;
     font-weight: 400;
@@ -11,13 +8,10 @@ body {
     font-weight: 300;
 }
 
-
-
 .title {
     margin-top: 8.5rem;
     font-size: 2rem;
     font-weight: 700;
-    color: $very-dark-blue;
     text-transform: uppercase;
 
     span {
@@ -69,14 +63,48 @@ body {
         color: #fff;
         font-weight: 700;
         box-shadow: 0 5px 10px $light-blue;
+    }   
+
+    button:hover {
+        cursor: pointer;
+        width: 29rem;
+        height: 5rem;
     }
 
-    
-    
+    .error {
+      border-color: red;  
+
+      
+    }
+    .error::placeholder {
+        color: black;
+    }
+
+    .error-msg {
+        display: none;
+        color: red;
+    }
 }
 .slack {
     margin: auto;
     background: center / contain no-repeat url('../img/slack.jpg');
     width: 32rem;
     height: 19rem;
+}
+
+.widgets {
+    margin-top: 12rem;
+    
+    .widget {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1.2rem;
+    }
+}
+
+footer {
+    margin: 3.2rem 0;
+    color: $light-gray;
+    font-weight: 300;
+    font-size: 1rem;
 }

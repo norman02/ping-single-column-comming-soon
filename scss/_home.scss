@@ -4,13 +4,13 @@ body {
     font-weight: 400;
     text-align: center;
     color: $very-dark-blue;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .title {
-    margin-top: 8.5rem;
-    font-size: 2rem;
+    margin-top: 85px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
 
@@ -20,9 +20,9 @@ body {
 }
 
 .sub-title {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    font-size: 2.2rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 22px;
     font-weight: 300;
     color: $light-gray;
 
@@ -33,7 +33,7 @@ body {
 }
 
 .subscription-form {
-    margin: 3.6rem 4.8rem 7rem 4.8rem;
+    margin: 36px 0 70px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,19 +47,19 @@ body {
         color: $light-blue;
         font-family: $primary-font;
         font-weight: 300;
-        font-size: 1.2rem;
-        padding-left: 3rem;
+        font-size: 12px;
+        padding-left: 30px;
     }
     
     .form-elem {
         outline: none;
-        width: 28rem;
-        height: 4rem;
+        width: 280px;
+        height: 40px;
         border-radius: 5rem;
     }
 
     button {
-        margin-top: 1.2rem;
+        margin-top: 12px;
         background-color: $blue;
         color: #fff;
         font-weight: 700;
@@ -68,8 +68,8 @@ body {
 
     button:hover {
         cursor: pointer;
-        width: 29rem;
-        height: 5rem;
+        width: 285px;
+        height: 45px;
     }
 
     .error-msg {
@@ -92,23 +92,65 @@ body {
 .slack {
     margin: auto;
     background: center / contain no-repeat url('../img/slack.jpg');
-    width: 32rem;
-    height: 19rem;
+    width: 320px;
+    height: 190px;
 }
 
 .widgets {
-    margin-top: 12rem;
+    margin-top: 120px;
     
     .widget {
-        width: 3rem;
-        height: 3rem;
-        margin-right: 1.2rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 12px;
     }
 }
 
 footer {
-    margin: 3.2rem 0;
+    margin-top: 70px;
+    margin-bottom: 32px;
     color: $light-gray;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 10px;
+}
+
+@include media-lg {
+
+    body {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .sub-title {
+        font-size: 48px;
+    }
+
+    .subscription-form {
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+
+        #email {
+            margin: 0 10px 0 0;
+            width: 420px;
+            height: 56px;
+        }
+    
+        #submit {
+            margin: 0;
+            height: 56px;
+            width: 200px;
+        }
+    }
+
+    .slack {
+        width: 567px;
+        height: 358px;
+    }
+
+    
+    
 }

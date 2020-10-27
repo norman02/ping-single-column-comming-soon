@@ -159,6 +159,31 @@ body {
   height: 5rem;
 }
 
+.subscription-form .error {
+  border-color: red;
+}
+
+.subscription-form .error::-webkit-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error:-ms-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error::-ms-input-placeholder {
+  color: black;
+}
+
+.subscription-form .error::placeholder {
+  color: black;
+}
+
+.subscription-form .error-msg {
+  display: none;
+  color: red;
+}
+
 .slack {
   margin: auto;
   background: center/contain no-repeat url("../img/slack.jpg");

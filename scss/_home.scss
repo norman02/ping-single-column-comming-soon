@@ -70,6 +70,20 @@ body {
         width: 29rem;
         height: 5rem;
     }
+
+    .error {
+      border-color: red;  
+
+      
+    }
+    .error::placeholder {
+        color: black;
+    }
+
+    .error-msg {
+        display: none;
+        color: red;
+    }
 }
 .slack {
     margin: auto;

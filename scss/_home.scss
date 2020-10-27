@@ -52,6 +52,7 @@ body {
     }
     
     .form-elem {
+        outline: none;
         width: 28rem;
         height: 4rem;
         border-radius: 5rem;
@@ -71,8 +72,14 @@ body {
         height: 5rem;
     }
 
+    .error-msg {
+        visibility: hidden;
+        color: red;
+    }
+
     .error {
-      border-color: red;  
+        visibility: visible;
+        border-color: red;  
 
       
     }
@@ -80,10 +87,7 @@ body {
         color: black;
     }
 
-    .error-msg {
-        display: none;
-        color: red;
-    }
+    
 }
 .slack {
     margin: auto;

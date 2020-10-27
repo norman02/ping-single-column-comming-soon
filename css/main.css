@@ -139,6 +139,7 @@ body {
 }
 
 .subscription-form .form-elem {
+  outline: none;
   width: 28rem;
   height: 4rem;
   border-radius: 5rem;
@@ -159,7 +160,13 @@ body {
   height: 5rem;
 }
 
+.subscription-form .error-msg {
+  visibility: hidden;
+  color: red;
+}
+
 .subscription-form .error {
+  visibility: visible;
   border-color: red;
 }
 
@@ -177,11 +184,6 @@ body {
 
 .subscription-form .error::placeholder {
   color: black;
-}
-
-.subscription-form .error-msg {
-  display: none;
-  color: red;
 }
 
 .slack {

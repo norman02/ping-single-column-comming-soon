@@ -153,6 +153,12 @@ body {
           box-shadow: 0 5px 10px #C2D3FF;
 }
 
+.subscription-form button:hover {
+  cursor: pointer;
+  width: 29rem;
+  height: 5rem;
+}
+
 .slack {
   margin: auto;
   background: center/contain no-repeat url("../img/slack.jpg");
